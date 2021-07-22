@@ -38,3 +38,5 @@ A typcial usage could be:
 ```
 for i in *fastq.gz; do human_LTR_repeat_family_analysis_elements_of_interest_only.pl --bowtie2 $i; done
 ```
+
+Once all repeat alignments have finished, the script `make_repeat_family_summary.pl` produces a single summary matrix from all `repeat_family_report.txt` files.
